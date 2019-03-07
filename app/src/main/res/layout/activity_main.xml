@@ -17,7 +17,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.131"
         app:srcCompat="@drawable/vr_pic" />
-
     <ImageView
         android:id="@+id/iv_main_video"
         android:layout_width="wrap_content"
