@@ -32,6 +32,11 @@ public class VRPicActivity extends AppCompatActivity {
             super.onPreExecute();
             Toast.makeText(getApplicationContext(),"开始加载图片",Toast.LENGTH_LONG).show();
         }
+        //用于提示后台执行进度
+        @Override
+        protected void onProgressUpdate(Void... values) {
+
+        }
 
         @Override
         protected Bitmap doInBackground(Void... voids) {//异步处理的主要内容：读图片
